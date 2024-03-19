@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My pokedex</title>
+</head>
+<body class="bg-red-600">
+
+    <!-- Pokedex -->
+    
+    
+
+        <section class="flex justify-center  items-center pt-[20px] ">
+
+            <button class="bg-blue-500 absolute right-[475px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="pokemon()">Ottieni un Pokemon Casuale</button>
+
+            
+                <div class="flex justify-center items-center">
+                    
+                    <div class="absolute top-[120px]" id="container"></div>
+                    <div id="card"></div>
+                </div>
+            
+            
+             
+
+            <input class="absolute top-[420px] w-[170px] h-[40px]  text-center bg-yellow-400 rounded-[20px] text-black " id="inputPoke" type="text" placeholder="Nome Pokemon">
+            <button class="absolute top-[500px] text-white" id="search">Cerca il pokemon</button>
+            
+        </section>
+        
+        
+
+        
+        
+       
+
+    <script src="mypokedex.js"></script>
+</body>
+</html>
